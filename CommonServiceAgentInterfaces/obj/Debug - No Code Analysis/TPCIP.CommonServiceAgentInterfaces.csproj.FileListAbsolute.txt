@@ -1,0 +1,8 @@
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\CommonServiceAgentInterfaces\bin\Debug -No Code Analysis\CommonServiceAgentInterfaces.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\CommonServiceAgentInterfaces\bin\Debug -No Code Analysis\CommonServiceAgentInterfaces.pdb
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\CommonServiceAgentInterfaces\bin\Debug -No Code Analysis\TPCIP.CommonDataModel.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\CommonServiceAgentInterfaces\bin\Debug -No Code Analysis\TPCIP.ServiceAgentInterfaces.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\CommonServiceAgentInterfaces\bin\Debug -No Code Analysis\TPCIP.ServiceAgentInterfaces.pdb
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\CommonServiceAgentInterfaces\obj\Debug - No Code Analysis\TPCIP.CommonServiceAgentInterfaces.csprojResolveAssemblyReference.cache
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\CommonServiceAgentInterfaces\obj\Debug - No Code Analysis\CommonServiceAgentInterfaces.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\CommonServiceAgentInterfaces\obj\Debug - No Code Analysis\CommonServiceAgentInterfaces.pdb
