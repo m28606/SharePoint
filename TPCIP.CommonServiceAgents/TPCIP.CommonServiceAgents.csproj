@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8ADDACB3-CF5B-45D6-9028-2ECCCD94EBF9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TPCIP.CommonServiceAgents</RootNamespace>
+    <AssemblyName>TPCIP.CommonServiceAgents</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug - No Code Analysis|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug -No Code Analysis\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Fakes\BcWithFakeFallback\ClickRatesAgent2.cs" />
+    <Compile Include="Fakes\BcWithFakeFallback\CustomerDataAgent2.cs" />
+    <Compile Include="Fakes\BcWithFakeFallback\FasAgent2.cs" />
+    <Compile Include="Fakes\BcWithFakeFallback\HouseholdAgent2.cs" />
+    <Compile Include="Fakes\BcWithFakeFallback\MyOrderAgent2.cs" />
+    <Compile Include="Fakes\BcWithFakeFallback\PaymentAgent2.cs" />
+    <Compile Include="Fakes\BcWithFakeFallback\PulseAgent2.cs" />
+    <Compile Include="Fakes\BcWithFakeFallback\SubscriptionAgent2.cs" />
+    <Compile Include="Fakes\ClickRatesAgent.cs" />
+    <Compile Include="Fakes\CustomerDataAgent.cs" />
+    <Compile Include="Fakes\FasAgent.cs" />
+    <Compile Include="Fakes\HouseholdAgent.cs" />
+    <Compile Include="Fakes\MyOrderAgent.cs" />
+    <Compile Include="Fakes\PaymentAgent.cs" />
+    <Compile Include="Fakes\PulseAgent.cs" />
+    <Compile Include="Fakes\SubscriptionAgent.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UseCache\MyOrderAgent3.cs" />
+    <Compile Include="UseCache\PulseAgent3.cs" />
+    <Compile Include="UseCache\SubscriptionAgent3.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonServiceAgentInterfaces\TPCIP.CommonServiceAgentInterfaces.csproj">
+      <Project>{921831cc-da08-49df-8f7e-35e98452c772}</Project>
+      <Name>TPCIP.CommonServiceAgentInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TPCIP.CommonDataModel\TPCIP.CommonDataModel.csproj">
+      <Project>{4fd794e1-2550-4173-b463-4ab8b3b76eec}</Project>
+      <Name>TPCIP.CommonDataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TPCIP.CommonServiceFacade\TPCIP.CommonServiceFacade.csproj">
+      <Project>{7b5ae3a8-f3b2-452a-a435-78b1bff0c4dd}</Project>
+      <Name>TPCIP.CommonServiceFacade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TPCIP.Instrumentation\TPCIP.Instrumentation.csproj">
+      <Project>{f6718dcd-f51c-4c62-8f9d-d8fe6f44a5f2}</Project>
+      <Name>TPCIP.Instrumentation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TPCIP.ServiceAgentInterfaces\TPCIP.ServiceAgentInterfaces.csproj">
+      <Project>{51e58018-5030-4316-96eb-08bf8ef01f7c}</Project>
+      <Name>TPCIP.ServiceAgentInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TPCIP.ServiceFacade\TPCIP.ServiceFacade.csproj">
+      <Project>{c6a3b040-d046-4d56-821e-200003cb0005}</Project>
+      <Name>TPCIP.ServiceFacade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TPCIP.ToolBox\TPCIP.ToolBox.csproj">
+      <Project>{d05ef8ca-4eaf-43dc-ba89-8a8bfd7b5148}</Project>
+      <Name>TPCIP.ToolBox</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="key.snk" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

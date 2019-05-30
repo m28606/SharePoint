@@ -1,0 +1,29 @@
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceAgents\bin\Debug -No Code Analysis\TPCIP.CommonServiceAgents.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceAgents\bin\Debug -No Code Analysis\TPCIP.CommonServiceAgents.pdb
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceAgents\bin\Debug -No Code Analysis\CommonServiceAgentInterfaces.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceAgents\bin\Debug -No Code Analysis\TPCIP.CommonDataModel.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceAgents\bin\Debug -No Code Analysis\TPCIP.CommonServiceFacade.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceAgents\bin\Debug -No Code Analysis\TPCIP.Instrumentation.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceAgents\bin\Debug -No Code Analysis\TPCIP.ServiceAgentInterfaces.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceAgents\bin\Debug -No Code Analysis\TPCIP.ServiceFacade.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceAgents\bin\Debug -No Code Analysis\TPCIP.ToolBox.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceAgents\bin\Debug -No Code Analysis\TPCIP.ServiceLocatorInterfaces.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceAgents\bin\Debug -No Code Analysis\TPCIP.CommonDomain.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceAgents\bin\Debug -No Code Analysis\Newtonsoft.Json.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceAgents\bin\Debug -No Code Analysis\TPCIP.Domain.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceAgents\bin\Debug -No Code Analysis\HtmlAgilityPack.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceAgents\bin\Debug -No Code Analysis\CommonServiceAgentInterfaces.pdb
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceAgents\bin\Debug -No Code Analysis\TPCIP.CommonServiceFacade.pdb
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceAgents\bin\Debug -No Code Analysis\TPCIP.Instrumentation.pdb
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceAgents\bin\Debug -No Code Analysis\TPCIP.ServiceAgentInterfaces.pdb
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceAgents\bin\Debug -No Code Analysis\TPCIP.ServiceFacade.pdb
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceAgents\bin\Debug -No Code Analysis\TPCIP.ToolBox.pdb
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceAgents\bin\Debug -No Code Analysis\TPCIP.ServiceLocatorInterfaces.pdb
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceAgents\bin\Debug -No Code Analysis\TPCIP.CommonDomain.pdb
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceAgents\bin\Debug -No Code Analysis\Newtonsoft.Json.xml
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceAgents\bin\Debug -No Code Analysis\TPCIP.Domain.pdb
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceAgents\bin\Debug -No Code Analysis\HtmlAgilityPack.pdb
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceAgents\bin\Debug -No Code Analysis\HtmlAgilityPack.xml
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceAgents\obj\Debug - No Code Analysis\TPCIP.CommonServiceAgents.csprojResolveAssemblyReference.cache
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceAgents\obj\Debug - No Code Analysis\TPCIP.CommonServiceAgents.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceAgents\obj\Debug - No Code Analysis\TPCIP.CommonServiceAgents.pdb
