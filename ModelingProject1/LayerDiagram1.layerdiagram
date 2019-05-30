@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="c46ddc15-29f6-4c1f-9136-b646682c429b" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="108d9378-c50a-4c6f-9992-6bf3feda6394" name="BusinessLogic">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="43d0fa6a-da6c-4a11-9714-ffe1651bca8b" direction="Forward">
+          <layerMoniker Id="1eb53316-9923-41d7-86cb-bfc76db97d6f" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="e2327320-10d6-43a2-8210-4d3398808729" name="BusinessLogic">
+          <ArtifactNode Label="BusinessLogic" Category="SolutionFolder" Id="(Assembly=../BusinessLogic)" />
+          <ExpandedNode Id="(Assembly=TPCIP.ServiceAgentInterfaces)" Label="TPCIP.ServiceAgentInterfaces.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+          <ExpandedNode Id="(Assembly=TPCIP.ServiceFacade)" Label="TPCIP.ServiceFacade.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+        <reference Id="9e9250b9-3a10-4edf-b2b9-225f84259e08" name="TPCIP.ServiceLocatorInterfaces">
+          <ArtifactNode Label="TPCIP.ServiceLocatorInterfaces" Category="CodeSchema_Project" Id="(Assembly=../TPCIP.ServiceLocatorInterfaces/TPCIP.ServiceLocatorInterfaces.csproj)" />
+          <ExpandedNode Id="(Assembly=TPCIP.ServiceLocatorInterfaces)" Label="TPCIP.ServiceLocatorInterfaces.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="9791a754-fb72-403e-9f4e-0ba70f71e886" name="Test">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="61bae3b0-04d0-4c03-a37c-1b11fe420672" direction="Forward">
+          <layerMoniker Id="108d9378-c50a-4c6f-9992-6bf3feda6394" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="e5b3cdf4-e3c0-4dc0-9483-9f598ad12d74" direction="Forward">
+          <layerMoniker Id="1eb53316-9923-41d7-86cb-bfc76db97d6f" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="2bc1e643-bb2a-4eae-af67-06c1096e30ae" name="Test">
+          <ArtifactNode Label="Test" Category="SolutionFolder" Id="(Assembly=../Test)" />
+          <ExpandedNode Id="(Assembly=TPCIP.Tests)" Label="TPCIP.Tests.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="1eb53316-9923-41d7-86cb-bfc76db97d6f" name="Shared">
+      <references>
+        <reference Id="314a19a0-39e5-4e9d-9295-6ae62467fafc" name="Shared">
+          <ArtifactNode Label="Shared" Category="SolutionFolder" Id="(Assembly=../Shared)" />
+          <ExpandedNode Id="(Assembly=TPCIP.Domain)" Label="TPCIP.Domain.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+          <ExpandedNode Id="(Assembly=TPCIP.Instrumentation)" Label="TPCIP.Instrumentation.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="f3ec857e-2828-4faa-97b7-c91efc55acd9" name="Integration">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="8d33487a-2dac-4c14-8208-52c178186d64" direction="Forward">
+          <layerMoniker Id="108d9378-c50a-4c6f-9992-6bf3feda6394" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="9a9e6650-e90f-417e-bd73-68b9a22a6ae5" name="Integration">
+          <ArtifactNode Label="Integration" Category="SolutionFolder" Id="(Assembly=../Integration)" />
+          <ExpandedNode Id="(Assembly=TPCIP.DataAccess)" Label="TPCIP.DataAccess.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+          <ExpandedNode Id="(Assembly=TPCIP.ServiceAgents)" Label="TPCIP.ServiceAgents.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="137b241a-bcd8-46fc-97f6-9757fa47b82a" name="Frontend">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="cd9b0b8a-0463-4f31-9b38-9df902eac7ef" direction="Forward">
+          <layerMoniker Id="5160bc13-4218-4262-8d06-41cce0d26f35" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="250dddc5-25a8-45aa-8dea-d9980fcd5633" direction="Forward">
+          <layerMoniker Id="108d9378-c50a-4c6f-9992-6bf3feda6394" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="8a206330-ebe9-4999-b3f6-97926e10244a" direction="Forward">
+          <layerMoniker Id="1eb53316-9923-41d7-86cb-bfc76db97d6f" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="5f9329a6-07e0-43cf-938b-0d8957aed8b3" name="Frontend">
+          <ArtifactNode Label="Frontend" Category="SolutionFolder" Id="(Assembly=../Frontend)" />
+          <ExpandedNode Id="(Assembly=TPCIP.Web)" Label="TPCIP.Web.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="5160bc13-4218-4262-8d06-41cce0d26f35" name="ServiceLocator">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="87bde740-da78-4935-a2c9-cb96046dc58d" direction="Forward">
+          <layerMoniker Id="108d9378-c50a-4c6f-9992-6bf3feda6394" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="58824e63-2eb3-420f-9c3a-679ddae263a8" direction="Forward">
+          <layerMoniker Id="f3ec857e-2828-4faa-97b7-c91efc55acd9" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="f9dc1506-7ab6-47f9-9042-2e890f304240" name="TPCIP.ServiceLocator">
+          <ArtifactNode Label="TPCIP.ServiceLocator" Category="CodeSchema_Project" Id="(Assembly=../TPCIP.ServiceLocator/TPCIP.ServiceLocator.csproj)" />
+          <ExpandedNode Id="(Assembly=TPCIP.ServiceLocator)" Label="TPCIP.ServiceLocator.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+  </layers>
+</layerModel>

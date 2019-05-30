@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{02309260-c3b2-4367-a055-ce44ce17c475}</ProjectGuid>
+    <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
+    <Name>ModelingProject1</Name>
+    <RootNamespace>ModelingProject1</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug - No Code Analysis' ">
+    <OutputPath>bin\Debug - No Code Analysis\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Test' ">
+    <OutputPath>bin\Test\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Test_SPTST02' ">
+    <OutputPath>bin\Test_SPTST02\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Staging' ">
+    <OutputPath>bin\Staging\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Test_WSFTST01' ">
+    <OutputPath>bin\Test_WSFTST01\</OutputPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ItemGroup>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="ModelDefinition\ModelingProject1.uml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Validate Include="LayerDiagram1.layerdiagram">
+      <SubType>Content</SubType>
+    </Validate>
+    <Validate Include="LayerDiagram1.layerdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>LayerDiagram1.layerdiagram</DependentUpon>
+    </Validate>
+    <Validate Include="LayerDiagram1.layerdiagram.suppressions">
+      <SubType>Content</SubType>
+      <DependentUpon>LayerDiagram1.layerdiagram</DependentUpon>
+    </Validate>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TPCIP.DataAccess\TPCIP.DataAccess.csproj">
+      <Name>TPCIP.DataAccess</Name>
+      <Project>{471a6efb-7c43-406b-9aec-ca675a00b296}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\TPCIP.Instrumentation\TPCIP.Instrumentation.csproj">
+      <Name>TPCIP.Instrumentation</Name>
+      <Project>{f6718dcd-f51c-4c62-8f9d-d8fe6f44a5f2}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\TPCIP.ServiceLocatorInterfaces\TPCIP.ServiceLocatorInterfaces.csproj">
+      <Name>TPCIP.ServiceLocatorInterfaces</Name>
+      <Project>{4da3e82f-da73-4a77-8a0e-821f1bdc6c4f}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\TPCIP.ServiceLocator\TPCIP.ServiceLocator.csproj">
+      <Name>TPCIP.ServiceLocator</Name>
+      <Project>{c28800dd-0c25-4d83-88e0-cc66ef5a274e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\TPCIP.Tests\TPCIP.Tests.csproj">
+      <Name>TPCIP.Tests</Name>
+      <Project>{0dbdceb1-407b-460a-a0cb-6bdaa3d3a827}</Project>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
