@@ -1,0 +1,4 @@
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonDomain\bin\Debug -No Code Analysis\TPCIP.CommonDomain.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonDomain\bin\Debug -No Code Analysis\TPCIP.CommonDomain.pdb
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonDomain\obj\Debug - No Code Analysis\TPCIP.CommonDomain.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonDomain\obj\Debug - No Code Analysis\TPCIP.CommonDomain.pdb

@@ -1,0 +1,3 @@
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonDataModel\bin\Debug -No Code Analysis\TPCIP.CommonDataModel.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonDataModel\obj\Debug - No Code Analysis\TPCIP.CommonDataModel.csprojResolveAssemblyReference.cache
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonDataModel\obj\Debug - No Code Analysis\TPCIP.CommonDataModel.dll
