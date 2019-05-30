@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{75EA04EB-F030-43C1-8E38-675678F98700}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TPCIP.ActiveUserGuides</RootNamespace>
+    <AssemblyName>TPCIP.ActiveUserGuides</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BB1F664B-9266-4fd6-B973-E1E44974B511};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SandboxedSolution>False</SandboxedSolution>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <LangVersion>default</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomerNoteMapper.cs" />
+    <Compile Include="DataModel\AdditionalValue.cs" />
+    <Compile Include="DataModel\CustomerNote.cs" />
+    <Compile Include="Domain\CustomerNoteStatus.cs" />
+    <Compile Include="Domain\GuideSessionHistory.cs" />
+    <Compile Include="FakeData\FakeCustomerIds.cs" />
+    <Compile Include="Fakes\BcWithFakeFallback\CustomerAgent2 .cs" />
+    <Compile Include="Fakes\CustomerAgent.cs" />
+    <Compile Include="GuideFacade.cs" />
+    <Compile Include="ICustomerAgent.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceLocator.cs" />
+    <Compile Include="Tools\ActiveUserGuides.ascx.cs">
+      <DependentUpon>ActiveUserGuides.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tools\ActiveUserGuides.ascx.designer.cs">
+      <DependentUpon>ActiveUserGuides.ascx.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="key.snk" />
+    <None Include="Package\Package.package">
+      <PackageId>{cba169ec-921f-4593-9f77-d28459baa89c}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Tools1\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3849f6f8-a861-4842-92bd-7b53b20a0642}</SharePointProjectItemId>
+    </None>
+    <None Include="Tools\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1eac0f3e-0d51-466f-bbc3-d5105e44033d}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Features\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Tools1\ActiveUserGuides.js" />
+    <Content Include="Tools\ActiveUserGuides.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonServiceAgentInterfaces\TPCIP.CommonServiceAgentInterfaces.csproj">
+      <Project>{921831cc-da08-49df-8f7e-35e98452c772}</Project>
+      <Name>TPCIP.CommonServiceAgentInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TPCIP.CommonDataModel\TPCIP.CommonDataModel.csproj">
+      <Project>{4fd794e1-2550-4173-b463-4ab8b3b76eec}</Project>
+      <Name>TPCIP.CommonDataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TPCIP.CommonDomain\TPCIP.CommonDomain.csproj">
+      <Project>{c030be56-e2d4-4f21-9e41-a7a201599cd0}</Project>
+      <Name>TPCIP.CommonDomain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TPCIP.CommonServiceAgents\TPCIP.CommonServiceAgents.csproj">
+      <Project>{8addacb3-cf5b-45d6-9028-2ecccd94ebf9}</Project>
+      <Name>TPCIP.CommonServiceAgents</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TPCIP.CommonServiceFacade\TPCIP.CommonServiceFacade.csproj">
+      <Project>{7b5ae3a8-f3b2-452a-a435-78b1bff0c4dd}</Project>
+      <Name>TPCIP.CommonServiceFacade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TPCIP.CommonTranslations\TPCIP.CommonTranslations.csproj">
+      <Project>{4c2631a3-365c-4b5b-a948-20c77cb5ae83}</Project>
+      <Name>TPCIP.CommonTranslations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TPCIP.FakeData\TPCIP.FakeData.csproj">
+      <Project>{656de3e3-4f59-45b2-b8ae-b98f1acc1581}</Project>
+      <Name>TPCIP.FakeData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TPCIP.ServiceAgents\TPCIP.ServiceAgents.csproj">
+      <Project>{6e6b9a9a-d9e0-4b22-81aa-1438fd2eaa1d}</Project>
+      <Name>TPCIP.ServiceAgents</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TPCIP.ServiceFacade\TPCIP.ServiceFacade.csproj">
+      <Project>{c6a3b040-d046-4d56-821e-200003cb0005}</Project>
+      <Name>TPCIP.ServiceFacade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TPCIP.ServiceLocatorInterfaces\TPCIP.ServiceLocatorInterfaces.csproj">
+      <Project>{4da3e82f-da73-4a77-8a0e-821f1bdc6c4f}</Project>
+      <Name>TPCIP.ServiceLocatorInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TPCIP.ServiceLocator\TPCIP.ServiceLocator.csproj">
+      <Project>{c28800dd-0c25-4d83-88e0-cc66ef5a274e}</Project>
+      <Name>TPCIP.ServiceLocator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TPCIP.ToolBox\TPCIP.ToolBox.csproj">
+      <Project>{d05ef8ca-4eaf-43dc-ba89-8a8bfd7b5148}</Project>
+      <Name>TPCIP.ToolBox</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TPCIP.Web\TPCIP.Web.csproj">
+      <Project>{d13f2048-c0f2-45dc-9e6e-769fcd5d4ff8}</Project>
+      <Name>TPCIP.Web</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>
