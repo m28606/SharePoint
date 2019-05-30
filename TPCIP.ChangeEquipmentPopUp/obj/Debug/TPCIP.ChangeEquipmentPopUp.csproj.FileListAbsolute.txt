@@ -1,0 +1,5 @@
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.ChangeEquipmentPopUp\bin\Debug\TPCIP.ChangeEquipmentPopUp.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.ChangeEquipmentPopUp\bin\Debug\TPCIP.ChangeEquipmentPopUp.pdb
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.ChangeEquipmentPopUp\obj\Debug\TPCIP.ChangeEquipmentPopUp.csprojResolveAssemblyReference.cache
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.ChangeEquipmentPopUp\obj\Debug\TPCIP.ChangeEquipmentPopUp.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.ChangeEquipmentPopUp\obj\Debug\TPCIP.ChangeEquipmentPopUp.pdb

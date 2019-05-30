@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="ef1288ed-9e9d-42dd-93bb-8afad519b4c7" solutionId="ef1288ed-9e9d-42dd-93bb-8afad519b4c7" resetWebServer="false" name="TPCIP.ChangeEquipmentPopUp" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <projectItems>
+    <projectItemReference itemId="b74e8cb2-fc0e-4b40-887e-50fda6743dd5" />
+    <projectItemReference itemId="29d13c98-2022-4236-978d-f6e24ff64208" />
+  </projectItems>
+</package>

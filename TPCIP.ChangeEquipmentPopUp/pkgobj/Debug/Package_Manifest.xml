@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="ef1288ed-9e9d-42dd-93bb-8afad519b4c7" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="TPCIP.ChangeEquipmentPopUp.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="LAYOUTS\TPCIP.Web\Scripts\Tools\ChangeEquipmentPopUp.js" />
+    <TemplateFile Location="CONTROLTEMPLATES\TPCIP.Web\Tools\ChangeEquipmentPopUp.ascx" />
+  </TemplateFiles>
+</Solution>
