@@ -1,0 +1,16 @@
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceFacade\bin\Debug\TPCIP.CommonServiceFacade.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceFacade\bin\Debug\TPCIP.CommonServiceFacade.pdb
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceFacade\obj\Debug\TPCIP.CommonServiceFacade.csprojResolveAssemblyReference.cache
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceFacade\obj\Debug\TPCIP.CommonServiceFacade.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceFacade\obj\Debug\TPCIP.CommonServiceFacade.pdb
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceFacade\bin\Debug\CommonServiceAgentInterfaces.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceFacade\bin\Debug\Newtonsoft.Json.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceFacade\bin\Debug\TPCIP.CommonDataModel.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceFacade\bin\Debug\TPCIP.CommonDomain.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceFacade\bin\Debug\TPCIP.ServiceLocatorInterfaces.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceFacade\bin\Debug\TPCIP.ToolBox.dll
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceFacade\bin\Debug\CommonServiceAgentInterfaces.pdb
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceFacade\bin\Debug\TPCIP.CommonDomain.pdb
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceFacade\bin\Debug\TPCIP.ServiceLocatorInterfaces.pdb
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceFacade\bin\Debug\TPCIP.ToolBox.pdb
+C:\Users\sagar.vidhwani\Desktop\WK20\15May_WK20\TPCIP.CommonServiceFacade\bin\Debug\Newtonsoft.Json.xml
