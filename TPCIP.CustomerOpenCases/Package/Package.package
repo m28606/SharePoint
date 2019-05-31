@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="1efed8f7-a21c-4542-9fca-c0180f7840ba" solutionId="1efed8f7-a21c-4542-9fca-c0180f7840ba" resetWebServer="false" name="TPCIP.CustomerOpenCases" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <projectItems>
+    <projectItemReference itemId="34d6ab11-ea77-40ce-b927-ba9a7f1a0a9c" />
+    <projectItemReference itemId="dfa0ff67-7b1c-4972-91f4-9327b9a2ac2f" />
+  </projectItems>
+</package>
